@@ -6,6 +6,9 @@ print(1) # Integer
 print(3.0) # Float
 print("Hello World!") # String
 
+
+print(f"Σήμερα διάβασα {x} ώρες") # F-string
+
 # Μεταβλητές 
 x = 5
 print("Σήμερα διάβασα ", x ,"ώρες")
@@ -17,8 +20,13 @@ x = input("Πόσες ώρες διάβασες?")
 
 
 # Είσοδος
-x = int(input("Πόσες ώρες διάβασες?"))
+x = int(input("Πόσες ώρες διάβασες?")) # Casting
 # x = "4"
 print("Διάβασες",x+1,"ώρες")
+
+
+# Boolean 
+y = True
+print(y)
 
 
